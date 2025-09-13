@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+</head>
+<body>
+    <h1>Details about your Vacation</h1>
+    <form action="post">
+        <div>
+        <label for="name">Enter your Name</label>
+        <input type="text" id="name" name="name">
+        </div>
+        <hr>
+        <div>
+        <label for="persons">Enter the no of persons</label>
+        <input type="number" id="persons" name="persons">
+    </div>
+    <hr>
+        <div>
+            <label for="duration">Duration(in days)</label>
+            <input type="number" id="duration">
+        </div>
+        <hr>
+        <div>
+            <h4>Would you like to have meal provided for extra cost?</h4>
+            <input type="radio" id="meal" name="meal" value="meal">
+            <label for="meal">Yes</label>
+            <input type="radio" id="meal2" name="meal" value="meal2">
+            <label for="meal2">No</label>
+        </div>
+        <hr>
+        <div>
+            <label for="child">Do you have a child with you?</label>
+            <input type="checkbox" id="child" value="yes">
+        </div>
+        <hr>a
+        <div>
+            <label for="place">Select one place out of these</label>
+            <select name="place" id="place">
+                <option value="maldives">Maldives</option>
+                <option value="goa">Goa</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="America">America</option>
+                <option value="new york">New York</option>
+            </select>
+        </div>
+        <hr>
+    </form>
+</body>
+</html>
